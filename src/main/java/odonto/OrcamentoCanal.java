@@ -1,4 +1,8 @@
 package odonto;
 
-public class OrcamentoCanal {
+public class OrcamentoCanal extends Orcamento {
+
+    public Procedimento criarProcedimento() {
+        return new Canal();
+    }
 }
